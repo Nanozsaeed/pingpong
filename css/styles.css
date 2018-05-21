@@ -4,5 +4,12 @@ h1{
   background-color: grey;
   margin-top: -20px;
   padding-top: 50px;
-  padding-bottom: 50px;  
+  padding-bottom: 50px;
+}
+.crew {
+  background-color: #B0E0E6;
+  margin-left:  -110px;
+  margin-top: -5px;
+  padding: 10px 100px 50px 100px;
+
 }
