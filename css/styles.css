@@ -1,3 +1,8 @@
-jumbotron{
+h1{
   text-align: center;
+  font-size: 200px;
+  background-color: grey;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 50px;  
 }
