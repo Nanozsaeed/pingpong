@@ -1,27 +1,31 @@
+//back-end
 var ppNumber = [];
-
-function input(man) {
-  for (var = 1; 1 <= p - p; 1 += 1) {
-    if (1 % 3 === 0) {
+function input(number) {
+  for (var index = 1; index <= number; index += 1) {
+    if (index % 3 === 0) {
       ppNumber.push("ping")
-    } else if (1 % 5 === 0) {
+    } else if (index % 5 === 0) {
+
       ppNumber.push("pong")
-    } else(1 % 15 === 0) {
+    } else if (index % 15 === 0) {
       ppNumber.push("pinpong")
+    } else {
+      ppNumber.push(index);
     }
   }
 }
-
-
-$(document).read(function() {
-  $("#p-p").submit(function(event){
+//font-end
+$(document).ready(function() {
+  $("form#p-p").submit(function(event) {
     event.preventDefault();
-    var man = parseInt($("input#put").val())
 
-    input(man);
+    var number = parseInt($("input#put").val());
+    console.log(number);
+    input(number);
+    console.log(ppNumber);
 
-    ppNumber.forEach(function(man){
-      $("")
+    ppNumber.forEach(function(number) {
+      $("ul#append").append("<li>" + number + "</li>");
     });
   });
 });
