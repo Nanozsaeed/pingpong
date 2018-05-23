@@ -8,7 +8,9 @@ function input(number) {
 
       ppNumber.push("pong")
     } else if (index % 15 === 0) {
+
       ppNumber.push("pinpong")
+
     } else {
       ppNumber.push(index);
     }
